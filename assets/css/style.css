@@ -1,16 +1,58 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.div-flex{
+    display:flex; 
+    flex-direction:column; 
+    height:100%;
+}
+
+.div-content{
+    flex:1; 
+    height:100%;
+}
+
 .navbar-logo{
-
+    height: 40px;
 }
 
-.navbar_logo_item{
-    height:25px;
-}
-
-.nav-item{
-
+.nav-item {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.25rem;
     font-weight: bold;
+    vertical-align: middle;
     text-align: center;
     color: #000;
+}
+
+.fa-solid {
+    margin-right: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ed1a3b;
+}
+
+#carousel {
+    flex-grow: 1;
+    height: auto;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(../img/isometric.png);
+    text-align: left;
+    color: #fff;
+}
+
+.carousel-title{
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+}
+
+.carousel-description{
+    font-size: 1rem;
 }
