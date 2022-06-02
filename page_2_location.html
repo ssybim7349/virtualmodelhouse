@@ -91,10 +91,18 @@
                 src="https://cdn.pannellum.org/2.4/pannellum.htm?config=https://pannellum.org/configs/tour.json"
                 width="100%" height=100% allowfullscreen="allowfullscreen"></iframe>
 -->
-            <iframe style="border-style:none;" 
-                src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=/assets/img_360/01_75m.jpg"
+   <!--         <iframe style="border-style:none;" 
+                src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https://ssybim.shop/wp-content/uploads/2022/06/01_75m-scaled.jpg"
                 width="100%" height="100%" allowfullscreen="allowfullscreen"></iframe>
-        </div>
+   -->
+   <div id="panorama"></div>
+<script>
+pannellum.viewer('panorama', {
+    "type": "equirectangular",
+    "panorama": "https://github.com/ssybim7349/virtualmodelhouse/blob/main/assets/img_360/01_75m.jpg"
+});
+</script>
+            </div>
 
     </div>
 
