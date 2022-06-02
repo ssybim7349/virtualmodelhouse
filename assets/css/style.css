@@ -1,0 +1,16 @@
+.navbar-logo{
+
+}
+
+.navbar_logo_item{
+    height:25px;
+}
+
+.nav-item{
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
